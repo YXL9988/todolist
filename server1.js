@@ -106,7 +106,7 @@ const requestListener = (req,res) => {
 }
 
 const server1 = http.createServer(requestListener);
-server1.listen(3005); // 127.0.0.1:3005 // local host 127.0.0.1
+server1.listen(process.env.PORT || 3005); // 127.0.0.1:3005 // local host 127.0.0.1
 
 
 
