@@ -2,9 +2,9 @@
   "name":"todolist",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server1.js",
+  "main": "server1.js",
   "scripts": {
-    "start": "node src/server1.js",
+    "start": "node server1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
